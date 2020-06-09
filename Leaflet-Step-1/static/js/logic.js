@@ -93,24 +93,3 @@ async function getData() {
 };
 
 getData()
-
-
-
-// async function getData() {
-
-//     const link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
-//     const data = await d3.json(link);
-
-//     console.log(data)
-// };
-
-// getData()
-
-
-// Binding a pop-up to each layer
-// function onEachFeature(feature, layer) {
-//     layer.bindPopup("<h3>" + feature.properties.place +
-//         "</h3><hr><p>" + new Date(feature.properties.time) + "</p>" +
-//         "</h3><hr><p>Magnitude: " + feature.properties.mag + "</p>");
-// }
-// .addTo(map);
